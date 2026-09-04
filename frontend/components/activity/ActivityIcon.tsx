@@ -1,0 +1,3 @@
+import { AlertCircle, Check, File, ListChecks, Search, Settings2, Sparkles, Wand2, Wrench } from 'lucide-react'; import type { ActivityType } from '@/types/activity';
+const icons: Record<ActivityType, any> = { thinking: Sparkles, planning: ListChecks, plan_created: ListChecks, step_started: Settings2, step_completed: Check, tool_selection: Wrench, tool_execution: Settings2, retrieval: Search, generation: Wand2, artifact: File, completion: Check, error: AlertCircle };
+export function ActivityIcon({ type }: {type: ActivityType}) { const Icon = icons[type]; return <Icon size={16} aria-hidden />; }

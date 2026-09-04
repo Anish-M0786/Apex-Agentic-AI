@@ -1,0 +1,2 @@
+export interface AgentStart { request_id: string; status: 'started'; }
+export interface AgentResult { request_id: string; status: 'completed' | 'failed'; summary?: string; artifacts?: Array<{filename:string;type:string;download_url?:string}>; errors?: Array<{message:string}>; }

@@ -1,0 +1,1 @@
+export function ThinkingIndicator({label='Thinking'}:{label?:string}){return <div className="thinking" role="status" aria-live="polite"><span className="spark" aria-hidden="true">*</span>{label}<i aria-hidden="true"/></div>}

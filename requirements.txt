@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-dotenv
+ollama
+requests
+pytest
+reportlab
+python-docx
+openpyxl
+python-pptx
+pypdf
+
+python-multipart
+faster-whisper
+edge-tts

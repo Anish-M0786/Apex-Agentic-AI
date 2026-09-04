@@ -1,0 +1,1 @@
+import { WorkspaceLayout } from '@/components/layout/WorkspaceLayout'; import { ChatWindow } from '@/components/chat/ChatWindow'; export default function Home(){return <WorkspaceLayout><ChatWindow/></WorkspaceLayout>}

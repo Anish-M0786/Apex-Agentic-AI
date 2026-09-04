@@ -1,0 +1,1 @@
+import type { Artifact } from '@/types/artifact'; import { ArtifactCard } from './ArtifactCard'; export const ArtifactList=({artifacts}:{artifacts:Artifact[]}) => artifacts.length ? <div className="artifacts">{artifacts.map(a=><ArtifactCard key={a.filename} artifact={a}/>)}</div> : null;

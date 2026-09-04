@@ -1,0 +1,1 @@
+from backend.exporters.study_export import export_study_result
